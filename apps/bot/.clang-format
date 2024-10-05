@@ -1,0 +1,15 @@
+BasedOnStyle: LLVM
+IndentWidth: 4                           # 4 spaces per indent level, common in many codebases
+TabWidth: 4                              # Width of tab character
+UseTab: Never                            # Always use spaces instead of tabs
+ColumnLimit: 100                         # Line length limit to ensure readability
+BreakBeforeBraces: Attach                # Place braces on the same line for control statements and functions
+AllowShortFunctionsOnASingleLine: false  # Prevent one-line function declarations
+DerivePointerAlignment: false
+PointerAlignment: Left                   # Pointers aligned to the type (e.g., int* p rather than int *p)
+SpaceAfterTemplateKeyword: false         # Ensures normal brackets are used for templates
+AlignAfterOpenBracket: Align             # Align multiline function arguments or array initializers after the open bracket
+IndentCaseLabels: true                   # Indent `case` labels in switch statements
+SpacesInAngles: false                    # Ensure no space between template angle brackets (<>)
+SpaceBeforeParens: ControlStatements     # Add space before parentheses in control statements (if, for, while)
+Cpp11BracedListStyle: true               # Use C++11 brace initialization where appropriate
