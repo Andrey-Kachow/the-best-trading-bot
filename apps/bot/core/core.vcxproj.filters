@@ -15,40 +15,55 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MainApp.cpp">
+    <ClCompile Include="src\MainApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MarketProvider.cpp">
+    <ClCompile Include="src\market\MarketProvider.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Logger.cpp">
+    <ClCompile Include="src\Logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="risk\RiskManager.cpp">
+    <ClCompile Include="src\risk\RiskManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Trade.cpp">
+    <ClCompile Include="src\Trade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PriceData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\market\AlphaVantageMarketProvider.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MainApp.h">
+    <ClInclude Include="src\MainApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MarketProvider.h">
+    <ClInclude Include="src\market\MarketProvider.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Logger.h">
+    <ClInclude Include="src\Logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="risk\RiskManager.h">
+    <ClInclude Include="src\risk\RiskManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Trade.h">
+    <ClInclude Include="src\Trade.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\PriceData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\market\AlphaVantageMarketProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\market\sample_data.json" />
   </ItemGroup>
 </Project>
