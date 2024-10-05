@@ -6,9 +6,9 @@ class RiskManager {
     virtual bool assessRisk(Trade& trade) = 0;
 };
 
-class BraveRiskManager : public RiskManager {
+class AlwaysConfidentRiskManager : public RiskManager {
   public:
-    bool assessRisk(Trade& trade) {
+    bool assessRisk(Trade& trade) override {
         return true;
     }
 };

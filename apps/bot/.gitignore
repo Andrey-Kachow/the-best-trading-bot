@@ -124,3 +124,6 @@ project.fragment.lock.json
 artifacts/
 
 # Ignore some commonly ignored files by other common tools
+
+# Ignore vcpkg installed libraries
+vcpkg_installed/
