@@ -1,0 +1,126 @@
+# Ignore Visual Studio temporary files, build results, and
+# build logs.
+# 
+# Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+####################
+# Windows specific #
+####################
+# Windows image file caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+######################
+# Visual Studio Code #
+######################
+.vscode/
+
+##################
+# Visual Studio #
+##################
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files.
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono auto generated)
+mono_crash.*
+
+# User-specific files (Azure DevOps)
+.vs/
+
+# Mono auto generated files
+mono_crash.*
+
+# Azure DevOps (formerly TFS) file
+_TFSBuild
+
+# Xamarin Studio binary directory
+**/bin/
+**/obj/
+
+# User-specific configuration files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated_Code/
+
+# Backup & report files
+*.log
+*.dmp
+*.bak
+*.old
+*.sdf
+*.cache
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.obj
+*.tlog
+*.lastbuildstate
+*.sln.docstates
+*.opensdf
+*.vspscc
+.vscode/
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+# Except build scripts directory
+!packages/build/
+
+# NuGet v3's project.json files produces more ignorable files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# SQL Server database files
+*.mdf
+*.ldf
+*.ndf
+
+# SQLLite database files
+*.sqlite
+*.sqlite3
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+###################
+# TeamCity files #
+###################
+# TeamCity is a JetBrains build service
+.teamcity/
+
+##################
+# DotNet Files #
+##################
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore some commonly ignored files by other common tools
