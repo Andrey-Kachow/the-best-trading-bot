@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andru\\Desktop\\Programming\\Projects\\the-best-trading-bot\\apps\\bot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{245295F4-AE0E-485B-B53B-87637C6B2051}|core\\core.vcxproj|C:\\Users\\andru\\Desktop\\Programming\\Projects\\the-best-trading-bot\\apps\\bot\\core\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{245295F4-AE0E-485B-B53B-87637C6B2051}|core\\core.vcxproj|solutionrelative:core\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 252,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\andru\\Desktop\\Programming\\Projects\\the-best-trading-bot\\apps\\bot\\core\\main.cpp",
+              "RelativeDocumentMoniker": "core\\main.cpp",
+              "ToolTip": "C:\\Users\\andru\\Desktop\\Programming\\Projects\\the-best-trading-bot\\apps\\bot\\core\\main.cpp",
+              "RelativeToolTip": "core\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-05T12:09:11.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
