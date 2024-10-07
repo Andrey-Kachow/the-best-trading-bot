@@ -12,5 +12,7 @@ class MainApp {
     std::unique_ptr<RiskManager> _riskManager;
 
   public:
+    MainApp();
+      
     void start();
 };

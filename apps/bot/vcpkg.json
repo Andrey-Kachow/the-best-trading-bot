@@ -3,8 +3,25 @@
     "version": "0.1.0",
     "builtin-baseline": "7adc2e4d49e8d0efc07a369079faa6bc3dbb90f3", 
     "dependencies": [
-        "boost-beast",
-        "boost-asio",
-        "boost-system"
+         {
+            "name": "openssl",
+            "default-features": true
+        },
+        {
+            "name": "boost-beast",
+            "default-features": true
+        },
+        {
+            "name": "boost-asio",
+            "default-features": true
+        },
+        {
+            "name": "boost-system",
+            "default-features": true
+        },
+        {
+            "name": "nlohmann-json",
+            "default-features": true
+        }
     ]
 }
